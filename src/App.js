@@ -135,7 +135,7 @@ function LaunchShoe() {
 
 // passing values in cart 
 function Passcart({ product }) {
-  const {  cart,removeCart, increase, decrease } = useContext(Globalcontext);
+  const { removeCart, increase, decrease } = useContext(Globalcontext);
 
   const remove = () => {
     removeCart(product.id);
